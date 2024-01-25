@@ -1,0 +1,32 @@
+.header {
+ background-color: #222;   
+}
+.header__conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+display: flex;
+width: 254px;
+height: 40px;
+padding-right: 0.422px;
+justify-content: center;
+align-items: center;
+}
+.header__link {
+display: flex;
+height: 46px;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+background: #F0F4F4;
+color: #222;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}

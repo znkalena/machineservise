@@ -1,0 +1,114 @@
+.contact {
+    padding: 104px 0 120px;
+    color: #222;
+}
+.conteiner {
+}
+.contact__title {
+
+text-align: center;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 96px */
+text-transform: uppercase;
+margin-bottom: 40px;
+}
+.redtext{
+    color: #D10014;
+    
+}
+.form {
+border-radius: 32px;
+background: #FFF;
+padding: 60px;
+}
+.form__fieldset {
+    margin-bottom: 32px;
+}
+.form__legent {
+margin-bottom: 32px;   
+font-weight: 700;
+line-height: 100%; 
+text-transform: uppercase;
+}
+.form__title {
+font-size: 32px;
+font-weight: 700;
+line-height: 100%;
+text-transform: uppercase;
+
+}
+.form__radio-wrapper {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+.form__radio-wrapper:last-child{
+    margin-bottom: 0;
+}
+.radio__input {
+    position: absolute;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+}
+.radio__label {
+    display: block;
+    height: 46px;
+    padding: 12px 20px;    
+    border-radius: 50px;
+    background: #F0F4F4;
+    border: 1px solid transparent;
+}
+.radio__input:hover{
+    background: #E4F0F0;
+}
+.radio__input:focus-visible+.radio__label{
+border-color: #D10014;
+}
+.radio__input:checked+.radio__label{
+background-color: #222;
+color: #fff;
+}
+.fieldset__day {
+}
+.form__month {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 16px;
+}
+.form__subtitle{
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+margin-bottom: 16px;
+}
+.form__month-btn{
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.form__month-btn-active{
+    color: #D10014;
+    font-weight: 700;
+}
+.fieldset__date {
+}
+.form__input-wrapper {
+}
+.form__input {
+}
+.form__info {
+}
+.form__info-time {
+}
+.form__btn-wrapper {
+}
+.form__btn {
+}
+.form__btn--next {
+}
